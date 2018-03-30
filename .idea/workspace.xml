@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0af08bd-c6e5-4783-96c9-11f482f5818c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/EightBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EightBall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestEightBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestEightBall.java" afterDir="false" />
     </list>
@@ -27,13 +25,15 @@
       <file leaf-file-name="EightBall.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/EightBall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            <state relative-caret-position="402">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
                 <element signature="e#135#136#0" expanded="true" />
                 <element signature="e#173#174#0" expanded="true" />
                 <element signature="e#205#206#0" expanded="true" />
                 <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,8 +42,8 @@
       <file leaf-file-name="TestEightBall.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestEightBall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="28" column="53" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="53" />
+            <state relative-caret-position="383">
+              <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#511#512#0" expanded="true" />
@@ -426,7 +426,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestEightBall.canGetCopyOfAnswers">
+  <component name="RunManager" selected="JUnit.TestEightBall.canAddAnswers">
     <configuration name="Unnamed" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="9" />
@@ -456,6 +456,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestEightBall" />
       <option name="METHOD_NAME" value="answersSetUpCorrectly" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestEightBall.canAddAnswers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="magicEightBall_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestEightBall" />
+      <option name="METHOD_NAME" value="canAddAnswers" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -555,9 +572,11 @@
       <item itemvalue="JUnit.magicEightBall" />
       <item itemvalue="JUnit.TestEightBall.answersSetUpCorrectly" />
       <item itemvalue="JUnit.TestEightBall.canGetCopyOfAnswers" />
+      <item itemvalue="JUnit.TestEightBall.canAddAnswers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestEightBall.canAddAnswers" />
         <item itemvalue="JUnit.TestEightBall.canGetCopyOfAnswers" />
         <item itemvalue="JUnit.TestEightBall.answersSetUpCorrectly" />
       </list>
@@ -582,6 +601,9 @@
     </history-entry>
     <history-entry file="TestEightBall_answersSetUpCorrectly - 2018.03.30 at 14h 40m 29s.xml">
       <configuration name="TestEightBall.answersSetUpCorrectly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestEightBall_canGetCopyOfAnswers - 2018.03.30 at 14h 52m 57s.xml">
+      <configuration name="TestEightBall.canGetCopyOfAnswers" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -631,6 +653,8 @@
             <element signature="e#173#174#0" expanded="true" />
             <element signature="e#205#206#0" expanded="true" />
             <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -649,21 +673,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EightBall.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        <state relative-caret-position="402">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="e#135#136#0" expanded="true" />
             <element signature="e#173#174#0" expanded="true" />
             <element signature="e#205#206#0" expanded="true" />
             <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestEightBall.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="28" column="53" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="53" />
+        <state relative-caret-position="383">
+          <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#511#512#0" expanded="true" />

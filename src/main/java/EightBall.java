@@ -17,4 +17,8 @@ public class EightBall {
         ArrayList<String> answersCopy = new ArrayList<>(this.answers);
         return answersCopy;
     }
+
+    public void addAnswer(String answer) {
+        this.answers.add(answer);
+    }
 }

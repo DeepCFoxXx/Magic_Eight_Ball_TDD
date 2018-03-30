@@ -31,4 +31,10 @@ public class TestEightBall {
         assertEquals(true, expected);
     }
 
+    @Test
+    public void canAddAnswers(){
+        eightBall.addAnswer("Get Some");
+        assertEquals(4, eightBall.answerCount());
+    }
+
 }
