@@ -37,4 +37,10 @@ public class TestEightBall {
         assertEquals(4, eightBall.answerCount());
     }
 
+    @Test
+    public void canGetRandomAnswer(){
+        eightBall.addAnswer("Get Some");
+        eightBall.randomAnswer();
+        assertEquals(4, eightBall.answerCount());
+    }
 }

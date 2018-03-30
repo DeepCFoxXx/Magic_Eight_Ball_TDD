@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class EightBall {
 
@@ -20,5 +21,10 @@ public class EightBall {
 
     public void addAnswer(String answer) {
         this.answers.add(answer);
+    }
+
+    public String randomAnswer() {
+        Collections.shuffle(this.answers);
+        return answers.get(1);
     }
 }
