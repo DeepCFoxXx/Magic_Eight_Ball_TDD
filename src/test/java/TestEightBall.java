@@ -24,4 +24,11 @@ public class TestEightBall {
         assertEquals(3, eightBall.answerCount());
     }
 
+    @Test
+    public void canGetCopyOfAnswers(){
+        ArrayList<String> copy = eightBall.getAnswers();
+        boolean expected = answers.equals(copy);
+        assertEquals(true, expected);
+    }
+
 }

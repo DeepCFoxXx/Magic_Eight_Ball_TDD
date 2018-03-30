@@ -12,4 +12,9 @@ public class EightBall {
     public int answerCount() {
          return this.answers.size();
     }
+
+    public ArrayList<String> getAnswers() {
+        ArrayList<String> answersCopy = new ArrayList<>(this.answers);
+        return answersCopy;
+    }
 }
